@@ -170,8 +170,8 @@ bar {
 }
 
 # Volume, sound control
-bindsym XF86AudioLowerVolume exec amixer -q set Master 1000-
-bindsym XF86AudioRaiseVolume exec amixer -q set Master 1000+
+bindsym XF86AudioLowerVolume exec amixer -q set Master 1500-
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 1500+
 bindsym XF86AudioMute exec amixer -q -D pulse set Master 1+ toggle
 # Brightness control, backlight, xbacklight
 bindsym XF86MonBrightnessDown  exec  xbacklight -dec 15
