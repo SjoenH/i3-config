@@ -176,3 +176,6 @@ bindsym XF86AudioMute exec amixer -q -D pulse set Master 1+ toggle
 # Brightness control, backlight, xbacklight
 bindsym XF86MonBrightnessDown  exec  xbacklight -dec 15
 bindsym XF86MonBrightnessUp  exec  xbacklight -inc 15
+
+#Enable/Disable HDMI2 Output if available when pushing XF86Display-button
+bindsym XF86Display exec ~/.config/i3/custom_scripts/toggleHDMI2
